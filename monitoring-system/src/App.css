@@ -1,0 +1,136 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background: #fff;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+nav a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 15px;
+}
+
+.container {
+  background: white;
+  padding: 30px;
+  margin: 30px auto;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  border-radius: 15px;
+  text-align: center;
+}
+
+.indicator {
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.temp {
+  background: black;
+  color: lime;
+}
+
+.open {
+  background: #ffcc00;
+  color: black;
+}
+
+.closed {
+  background: black;
+  color: lime;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button.green {
+  background-color: #4CAF50;
+  color: white;
+}
+
+button.red {
+  background-color: #f44336;
+  color: white;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.mode-test .active {
+  color: blue;
+  font-weight: bold;
+}
+
+.mode-test .inactive {
+  color: gray;
+  font-weight: bold;
+}
+
+.temp-control {
+  margin: 20px 0;
+}
+
+.control-section {
+  display: flex;
+  justify-content: space-around;
+}
+
+.control-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  background: #f4f4f4;
+  padding: 20px;
+  margin: 20px auto;
+  width: 250px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.gauge {
+  font-size: 2em;
+  margin-top: 10px;
+}
+
+.toggle-view {
+  margin-top: 10px;
+}
+
+.toggle {
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: bold;
+  display: inline-block;
+  color: white;
+}
+
+.toggle.on {
+  background-color: teal;
+}
+
+.toggle.off {
+  background-color: gray;
+}
