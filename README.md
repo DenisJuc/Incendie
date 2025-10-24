@@ -12,6 +12,13 @@ The Pi updates sensor data and receives control commands through Firebase, while
 
 ---
 
+## Live Demo
+
+Web App: https://incendie-kappa.vercel.app/
+Repository: https://github.com/DenisJuc/Incendie
+
+---
+
 ## Modes of Operation
 
 ### Automatic Mode
@@ -80,7 +87,3 @@ npm start
 pip install firebase-admin gpiozero python main.py
 
 Note: The Firebase API key is public intentionally — this is a school project and does not contain sensitive data.
-
-## Live Demo
-Web App: https://incendie-kappa.vercel.app/
-Repository: https://github.com/DenisJuc/Incendie
