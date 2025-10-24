@@ -1,9 +1,5 @@
 # Smart Door System (IoT) — React • Firebase • Raspberry Pi
 
-<p align="center">
-  <img src="assets/prototype-early.png" alt="Early physical prototype" width="720">
-</p>
-
 A smart door IoT system combining **React**, **Firebase Realtime Database**, and **Raspberry Pi (Python)**.  
 It operates in **automatic** and **manual** modes, managing real hardware: temperature sensor, alarm buzzer, LED indicator, and servo-controlled door.
 
