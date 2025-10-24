@@ -1,5 +1,8 @@
 # Smart Door System (IoT) — React • Firebase • Raspberry Pi
 
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Vercel-brightgreen)](https://incendie-kappa.vercel.app/)
+[![GitHub Repository](https://img.shields.io/badge/Repository-Incendie-blue)](https://github.com/DenisJuc/Incendie)
+
 A smart door IoT system combining **React**, **Firebase Realtime Database**, and **Raspberry Pi (Python)**.  
 It operates in **automatic** and **manual** modes, managing real hardware: temperature sensor, alarm buzzer, LED indicator, and servo-controlled door.
 
