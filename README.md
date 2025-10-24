@@ -1,8 +1,5 @@
 # Smart Door System (IoT) — React • Firebase • Raspberry Pi
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-Vercel-brightgreen)](https://incendie-kappa.vercel.app/)
-[![GitHub Repository](https://img.shields.io/badge/Repository-Incendie-blue)](https://github.com/DenisJuc/Incendie)
-
 <p align="center">
   <img src="assets/prototype-early.png" alt="Early physical prototype" width="720">
 </p>
@@ -84,8 +81,8 @@ npm install
 npm start
 ```
 ## Raspberry Pi (Python)
-pip install firebase-admin gpiozero
-python main.py
+pip install firebase-admin gpiozero python main.py
+
 Note: The Firebase API key is public intentionally — this is a school project and does not contain sensitive data.
 
 ## Live Demo
